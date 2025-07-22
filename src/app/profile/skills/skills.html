@@ -1,0 +1,25 @@
+<div class="section" id="skill">
+  <div class="container cc-education">
+    <div class="h4 text-center mb-4 title">Technical Skills</div>
+    @for (skill of skillSet; track skill[0];) {
+    <div class="card">
+      <div class="row">
+        <div class="col-md-2 bg-color" >
+          <div class="skill">
+            {{skill[0]}}
+          </div>
+        </div>
+        <div class="col-md-9" >
+          <div>
+            <span class="progress-value">
+              @for (s of skill[1]; track s) {
+              {{s + (s !== skill[1][skill[1].length - 1] ? ', ' : '')}}
+              }
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</div>

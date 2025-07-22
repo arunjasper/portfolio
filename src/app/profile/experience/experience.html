@@ -1,0 +1,41 @@
+<div class="section" id="experience">
+  <div class="container cc-education">
+    <div class="h4 text-center mb-4 title">Work Experience</div>
+    <div class="colorlib-narrow-content">
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="timeline-centered">
+            @for (exp of experience; track exp; let i = $index;) {
+            <div class="timeline-entry animate-box" >
+              <div class="timeline-entry-inner">
+                <div class="timeline-icon color-1">
+                  <i>{{i+1}}</i>
+                </div>
+                <div class="timeline-label">
+                  <div>
+                    <span class="exp-left">Client: </span> <span class="exp-write">{{exp.client}}</span>
+                  </div>
+                  <div>
+                    <span class="exp-left">Duration: </span> <span class="exp-write">{{exp.timeline}}</span>
+                  </div>
+                  <div>
+                    <span class="exp-left">Role: </span> <span class="exp-write">{{exp.role}}</span>
+                  </div>
+                  <p>Responsibilities: </p>
+                  <ul>
+                    @for (work of exp.responsibilities; track work) {
+                    <li>{{work}}</li>
+                    }
+                  </ul>
+                  <p>Environment: </p> <span>{{exp.environment}}</span>                
+                </div>
+              </div>
+            </div>
+            }
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
