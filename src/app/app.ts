@@ -16,5 +16,4 @@ import { About } from './profile/about/about';
   styleUrl: './app.scss'
 })
 export class App {
-  protected readonly title = signal('portfolio-ng');
 }
