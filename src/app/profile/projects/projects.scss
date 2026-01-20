@@ -1,0 +1,40 @@
+
+.project-card {
+    height: 550px;
+
+}
+
+.img-fluid1 {
+    height: 400px;
+    width: 500px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.img-fluid {
+    min-height: 335px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.br-50 {
+    border-radius: 50%;
+}
+
+.br-20 {
+    border-radius: 20%;
+}
+
+.br-2 {
+    border-radius: 2%;
+}
+
+.btn-group {
+  /* Optional: Center the button horizontally if needed */
+  text-align: center;
+  padding: 10px;
+}
+
+.btn-new{
+    padding-left: 0;
+}

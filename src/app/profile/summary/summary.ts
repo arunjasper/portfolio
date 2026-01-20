@@ -10,7 +10,9 @@ export class Summary implements OnInit {
 
   constructor(private profileService: APIService) { }
   summaryList : string[] = [];
+  summary = '';
   ngOnInit() {
     this.summaryList = [...this.profileService.summaryList];
+    this.summary = this.profileService.summary;
   }
 }

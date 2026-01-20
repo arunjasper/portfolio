@@ -16,6 +16,7 @@ export class Profile implements OnInit {
 
   onClick() {
     window.open("./assets/ArunJasper.pdf");
+   // window.open(this.cvUrl);
   }
 
 }

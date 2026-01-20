@@ -1,0 +1,26 @@
+<div class="section container" id="projects">
+    <div class="h4 text-center mb-4 title">Personal Projects</div>
+    <div  class="row ">
+        @for( project of projects; track project.id){
+        <div data-aos="zoom-in" class="col-6 ">
+            <div class="card  p-2 br-2">
+                <div class="card-body project-card">
+                    <div class="row  align-end">
+                        <span class="h5">{{project.name}}</span>
+                        <img [src]="project.imgUrl" class="img-fluid" alt="Project Image">
+                        <span>
+                            {{project.description }}
+                        </span>
+                    </div>
+                </div>
+                <div class="btn-group1">
+                    <div class="  d-flex justify-content-between">                       
+                        <button class="btn btn-primary btn-new btn-sm mt-2"  (click)="navigate(project.liveUrl)"> <img class="p-1" src="assets/images/view.svg" alt="GitHub Logo" />View Project</button>
+                        <button class="btn btn-secondary btn-new btn-sm mt-2" (click)="navigate(project.sourceCodeUrl)"> <img class="p-1" src="assets/images/git.svg" alt="GitHub Logo" />Source Code</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        }
+    </div>
+</div>

@@ -1,5 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
-/* You can add global styles to this file, and also import other style files */
 
 @import "@fortawesome/fontawesome-free/css/all.min.css";
 div,p,h1,h2,h3,h4,h5,h6,li,span{
@@ -37,4 +36,9 @@ div,p,h1,h2,h3,h4,h5,h6,li,span{
 }
 .pb-2 {
     padding-bottom: 2rem;
+}
+
+.border {
+    border: 1px solid #c3cbd4;
+    border-radius: 5px;
 }

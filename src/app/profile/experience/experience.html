@@ -1,13 +1,13 @@
 <div class="section" id="experience">
   <div class="container cc-education">
-    <div class="h4 text-center mb-4 title">Work Experience</div>
+    <div class="h4 text-center mb-4 title">Professional Experience</div>
     <div class="colorlib-narrow-content">
 
       <div class="row">
         <div class="col-md-12">
           <div class="timeline-centered">
             @for (exp of experience; track exp; let i = $index;) {
-            <div class="timeline-entry animate-box" >
+            <div class="timeline-entry animate-box" data-aos="fade-up">
               <div class="timeline-entry-inner">
                 <div class="timeline-icon color-1">
                   <i>{{i+1}}</i>
@@ -15,6 +15,9 @@
                 <div class="timeline-label">
                   <div>
                     <span class="exp-left">Client: </span> <span class="exp-write">{{exp.client}}</span>
+                  </div>
+                    <div>
+                    <span class="exp-left">Employer: </span> <span class="exp-write">{{exp.employer}}</span>
                   </div>
                   <div>
                     <span class="exp-left">Duration: </span> <span class="exp-write">{{exp.timeline}}</span>
