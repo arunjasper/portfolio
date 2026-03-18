@@ -247,7 +247,7 @@ export class APIService {
       name: 'Portfolio Website',
       description: 'A personal portfolio website to showcase my projects and skills.',
       imgUrl: 'assets/images/projects/portfolio.jpeg',
-      liveUrl: 'https://arunjasper.github.io/portfolio/',
+      liveUrl: 'https://arun-jasper-portfolio.vercel.app',
       sourceCodeUrl: 'https://github.com/arunjasper/portfolio'
     },
   ]
