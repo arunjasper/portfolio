@@ -9,9 +9,21 @@ export class APIService {
 
   resumeurl = "https://docs.google.com/document/d/1ZxUQ5s8nKLnp_vjdQMQYPxO6AYipDx3eUhiZ5KOr6uI/edit?tab=t.0"
 
-  summary: string = `Accomplished Senior Software Engineer with 15+ years’ experience in modern web technologies including Angular, TypeScript, JavaScript and .NET. Expert in architecting scalable applications, responsive UI/UX design, CMS Integration, REST API integration, and AWS deployments. Demonstrated leadership in dynamic, fast-paced environments, driving high-quality project delivery and innovation in both client-facing and internal tools.`;
+  summary: string = `Accomplished Senior Software Engineer with 15+ years’ experience in modern web technologies including Angular, TypeScript, JavaScript and .NET. Expert in architecting scalable applications, responsive UI/UX design, CMS integration, REST API integration, AI Integration and AWS deployments. Demonstrated leadership in dynamic, fast-paced environments, driving high-quality project delivery and innovation in both client-facing and internal tools.`;
 
   summaryList: string[] = [
+    'Senior UI Developer with over 15 years of extensive experience in designing and developing web applications using Angular, TypeScript, JavaScript, ASP.Net MVC, and ASP.Net.',
+    'Proficient in building responsive and user-friendly interfaces with Angular Material, Kendo(telerik), PrimeNG, CSS3, SCSS, and Bootstrap.',
+    'Skilled in state management using NgRx, RxJS, and building reusable components for Single Page Applications (SPA) and Progressive Web Applications (PWA).',
+    'Experienced in integrating front-end applications with APIs using GraphQL and Apollo/Client.',
+    'Experience in building Single Page Applications(SPA), Progressive Web Applications(PWA) using Angular, Typescript, HTML5, CSS3, SCSS and Bootstrap.',
+    'Experience in integrating Angular applications with API using GraphQL, Apollo/Client and Angular-apollo.',
+    'Experience developer using AI-powered coding tools like GitHub Copilot and Cursor to improve development workflows and integrate AI features in angular projects using GenKit and the Gemini API.',
+    'Expertise in utilizing modern development tools such as Angular CLI, Docker, Node.js, and AWS for efficient project delivery.',
+    'Committed to maintaining code quality through automated testing frameworks like Cypress and Protractor.',
+    'Strong background in software development best practices, including Agile methodologies and CI/CD pipelines.'
+];
+  summaryList1: string[] = [
     'Extensive Experience in Web Applications using Angular, TypeScript, JavaScript, ASP.Net MVC and ASP.Net.',
     'Experience in designing UI Layers using Angular Material, Kendo(telerik), PrimeNG, CSS3, SCSS and Bootstrap.',
     'Deep knowledge in Angular best practices and concepts, server side Rendering using Angular Universal, parallel processing using Web Workers, Lazy loading using Angular Routing, cross cutting concerns using HTTP interceptors, components communication using RxJS Subjects, State Management using NgRx.',
@@ -45,6 +57,7 @@ export class APIService {
     ['Languages', ['TypeScript', 'JavaScript', 'C#', 'VB.NET', 'PowerShell', 'Kotlin', 'Java']],
     ['Architectures', ['Server Driven UI (SDUI)', 'Micro Frontends', 'Micro Services', 'Layered', 'RESTful Services', 'WCF Services']],
     ['Build Tools', ['Angular CLI', 'Nx CLI', 'MSBuild', 'Webpack', 'NPM', 'Yarn']],
+    ['AI Tools & Platforms',['GitHub Copilot', 'Cursor', 'GenKit', 'Gemini API', 'MCP Server']],
     ['API', ['GraphQL', 'Apollo/Client', 'ASP.Net Web API', 'WCF Services', 'Web Services', 'RESTful API', 'SOAP']],
     ['Backend', ['Node Js', '.Net Core', '.Net Framework', 'Next Js', 'Express', 'Spring boot']],
     ['Database', ['SQL Server', 'PostgreSQL', 'Oracle', 'Azure SQL', 'Entity Framework', 'Dapper']],
@@ -70,9 +83,10 @@ export class APIService {
         'Implemented state management using NgRx, NgRx Signal Store, RxJs and Observable services, and conducted code reviews to maintain best practices.',
         'Utilized modern development tools, including Docker, Node.js, Express, and NX monorepo, to streamline project delivery.',
         'Set up and maintained automated testing with Cypress, Jest, and Jasmine, ensuring robust and reliable releases.',
-        'Collaborated with cross-functional teams to troubleshoot, debug, and resolve integration issues, supporting high-quality deliverables.'
+        'Optimized development workflows using AI-powered coding tools, including GitHub Copilot and Cursor, to accelerate code writing and debugging, increasing team productivity.',
+        'Integrated AI-powered features into Angular projects by leveraging GenKit and the Gemini API.'
       ],
-      environment: 'Angular 14/16/18, RxJS, Typescript, JavaScript, Node Js, AWS S3, GIT, SCSS, HTML5, Docker, Visual Studio Code, Sonar Cloud'
+      environment: 'Angular 14/16/18/19, RxJS, Typescript, JavaScript, Node Js, AWS S3, GIT, SCSS, HTML5, Docker, Visual Studio Code, Sonar Cloud'
     },
     {
       id: 2,
@@ -195,7 +209,6 @@ export class APIService {
       timeline: 'Oct-2005 to Oct-2006',
       role: 'Senior Software Engineer',
       responsibilities: [
-        'Coordinated with onshore teams to confirm business requirements and develop detailed design documentation.',
         'Developed GUIs using ASP.Net, HTML, JavaScript, AJAX, and CSS, supporting business process automation.',
         'Designed and implemented business and data access layers, integrating with SQL Server and Oracle databases.',
         'Developed secure authentication modules and generated reports using XML, XSLT, and Excel formats.'
@@ -218,7 +231,7 @@ export class APIService {
       name: 'Sakila Movie web App',
       description: 'The Sakila Movie web application is built using Angular for the frontend and Spring Boot for the backend. It provides users with an interactive interface to browse and search for movies from the Sakila database. The application features a responsive design, allowing users to access it seamlessly across various devices.',
       imgUrl: 'assets/images/projects/movies.jpeg',
-      liveUrl: 'https://myportfolio.com',
+      liveUrl: 'https://sakila-angular.vercel.app/',
       sourceCodeUrl: 'https://github.com/arunjasper/sakila-angular'
     },
     {
@@ -230,7 +243,7 @@ export class APIService {
       sourceCodeUrl: 'https://github.com/arunjasper/stock-ang'
     },
     {
-      id: 1,
+      id: 4,
       name: 'Portfolio Website',
       description: 'A personal portfolio website to showcase my projects and skills.',
       imgUrl: 'assets/images/projects/portfolio.jpeg',
